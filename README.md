@@ -49,41 +49,46 @@ To work on files, you need to know how to move between directories (folders).
 
 ### Check Current Directory
 To see where you are:
+#### Git Bash
 ```bash
-pwd  # Git Bash (print working directory)
-
-cd   # Anaconda Prompt (just type 'cd' with no arguments)
+pwd
 ```
+Prints the working directory.
+
+#### Anaconda Prompt
+```bash
+cd
+```
+Displays the current directory when typed without arguments.
 
 ### List Contents of a Directory
 To list files and folders in the current directory:
+#### Git Bash
 ```bash
-ls       # Git Bash
-
-dir      # Anaconda Prompt
+ls
+```
+#### Anaconda Prompt
+```bash
+dir
 ```
 
 ### Change Directories
 To move into a directory:
 ```bash
-cd folder_name    # Git Bash & Anaconda Prompt
+cd folder_name
 ```
+Works in both Git Bash and Anaconda Prompt.
 
 #### Example:
 If you are in `C:/Users/YourName` and want to move to `Documents`:
-- Git Bash:
-   ```bash
-   cd Documents
-   ```
-- Anaconda Prompt:
-   ```bash
-   cd Documents
-   ```
+```bash
+cd Documents
+```
 
 ### Move Up One Level
 To go back **one directory**:
 ```bash
-cd ..   # Git Bash & Anaconda Prompt
+cd ..
 ```
 
 #### Example:
@@ -94,14 +99,14 @@ cd ..
 
 ### Navigate to a Specific Path
 If you want to move directly to a folder:
-- Git Bash:
-   ```bash
-   cd /c/Users/YourName/Documents
-   ```
-- Anaconda Prompt:
-   ```bash
-   cd C:\Users\YourName\Documents
-   ```
+#### Git Bash
+```bash
+cd /c/Users/YourName/Documents
+```
+#### Anaconda Prompt
+```bash
+cd C:\Users\YourName\Documents
+```
 
 ---
 
@@ -110,8 +115,9 @@ If you want to move directly to a folder:
 ### Create a New Directory (Folder)
 To create a new directory:
 ```bash
-mkdir new_folder_name    # Git Bash & Anaconda Prompt
+mkdir new_folder_name
 ```
+Works in both Git Bash and Anaconda Prompt.
 
 #### Example:
 ```bash
@@ -121,21 +127,24 @@ This will create a folder called `Projects` in your current directory.
 
 ### Create a New File
 To create an empty file:
-- Git Bash:
-   ```bash
-   touch new_file.txt
-   ```
-- Anaconda Prompt:
-   ```bash
-   echo. > new_file.txt
-   ```
+#### Git Bash
+```bash
+touch new_file.txt
+```
+#### Anaconda Prompt
+```bash
+echo. > new_file.txt
+```
 
 #### Example:
 To create a file named `example.txt`:
+Git Bash:
 ```bash
-touch example.txt      # Git Bash
-
-echo. > example.txt    # Anaconda Prompt
+touch example.txt
+```
+Anaconda Prompt:
+```bash
+echo. > example.txt
 ```
 
 ---
@@ -183,5 +192,4 @@ Here’s a quick summary of the commands covered:
    - Anaconda Prompt: `cls`
 3. **File Paths**: Pay attention to the difference in slashes (`/` for Git Bash, `\` for Anaconda Prompt).
 4. **Practice**: Try navigating to your project folders and creating some test files/directories.
-
 
